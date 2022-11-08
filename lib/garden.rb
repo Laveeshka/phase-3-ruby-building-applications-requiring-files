@@ -1,4 +1,8 @@
 # Something is missing here
+# require_relative is a Ruby method that accepts a relative file path
+# require accepts an absolute file path from the root folder
+#both methods will only load methods, modules and classes from other files
+require_relative './plant'
 
 class Garden
   attr_accessor :name
